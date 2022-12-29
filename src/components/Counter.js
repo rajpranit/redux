@@ -23,6 +23,7 @@ const Counter = () => {
     dispatch(counterAction.increase(5));
   };
 
+  // this is the return statement for this component
   return (
     <main className={classes.counter}>
       <h1>Redux Counter</h1>

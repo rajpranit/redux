@@ -22,6 +22,8 @@ const Auth = () => {
     dispatch(authAction.login());
   };
 
+  
+  //this is the return statement for this component
   return (
     <main className={classes.auth}>
       <section>
